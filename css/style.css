@@ -10,16 +10,19 @@ body {
   color: #fff;
 }
 .main {
-  display: flex;
-  flex-flow: column;
+  background-color: #111;
+  height: 100vh;
+  color: #fff;
 }
 .face {
-  display: flex;
-  flex-flow: column;
+  background-color: #111;
+  height: 100vh;
+  color: #fff;
 }
 .image {
-  display: flex;
-  flex-flow: column;
+  background-color: #111;
+  height: 100vh;
+  color: #fff;
 }
 .header-btn {
   display: flex;
