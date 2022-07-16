@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #111;
+  height: 100vh;
+  color: #fff;
+}
+.header-btn {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.skip {
+  background-color: #dedad51a;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 44px;
+}
+.skip:hover {
+  color: #000;
+  background-color: #fff;
+}
+.main-images {
+  display: flex;
+  justify-content: center;
+}
+
+.good-img {
+  width: 222px;
+  height: 222px;
+}
+.main-img {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.main-content-first {
+  background: #ff523a;
+  margin-right: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.main-content-second {
+  background: #ff523a;
+  margin-right: 5px;
+}
+.main-content-third {
+  background: #ff523a;
+  margin-right: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.delete-img {
+  padding-bottom: 55px;
+  padding-left: 3px;
+}
+.photo {
+  padding-right: 15px;
+  padding-top: 10px;
+}
+.navigation-show {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.active-navigation {
+  width: 24px;
+  height: 4px;
+
+  background: #ffffff;
+  border-radius: 100px;
+}
+.active-navigate {
+  width: 24px;
+  height: 4px;
+  margin-left: 10px;
+  background: #ffffff;
+  border-radius: 100px;
+}
+.passive-navigation {
+  width: 24px;
+  height: 4px;
+  margin-left: 10px;
+  background: rgba(222, 218, 213, 0.3);
+  border-radius: 100px;
+}
+.title {
+  padding-top: 32px;
+  text-align: center;
+
+  font-family: "Source Sans Pro";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+}
+.check {
+  padding-top: 30px;
+}
+.check-top {
+  display: flex;
+  justify-content: center;
+  padding-right: 90px;
+  margin-bottom: 10px;
+}
+.check-middle {
+  display: flex;
+  justify-content: center;
+  padding-right: 113px;
+  margin-bottom: 10px;
+}
+.check-bottom {
+  display: flex;
+  justify-content: center;
+  padding-right: 55px;
+}
+.check-title {
+  padding-left: 10px;
+
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.bottom-btn {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.btn {
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #423b34;
+  width: 328px;
+  height: 44px;
+  background: #dedad5;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 150px;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+.face-paragraph {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 40px;
+  color: #dedad5;
+}
+.face-img {
+  width: 280px;
+  height: 300px;
+}
+.button {
+  margin-top: 21px;
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #423b34;
+  width: 232px;
+  height: 44px;
+  background: #dedad5;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 100px;
+}
+.back {
+  padding: 12px 18px;
+  width: 44px;
+  height: 44px;
+  background: rgba(222, 218, 213, 0.2);
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-top: 21px;
+}
+.photos {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.photos-image {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.first-photos {
+  width: 189px;
+  height: 285px;
+}
+.second-photos {
+  margin-bottom: 10px;
+  width: 105px;
+  height: 138px;
+}
+.active {
+  width: 24px;
+  height: 4px;
+  margin-left: 10px;
+  background: #ffffff;
+  border-radius: 100px;
+}
+.photo-btn {
+  text-decoration: none;
+  font-family: "Source Sans Pro";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #fff;
+  width: 232px;
+  height: 44px;
+  background: #7339ed;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-left: 75px;
+  margin-top: 44px;
+}
+.bottom-back {
+  padding: 12px 18px;
+  width: 44px;
+  height: 44px;
+  background: rgba(222, 218, 213, 0.2);
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-top: 44px;
+}
