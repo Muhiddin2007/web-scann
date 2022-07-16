@@ -4,20 +4,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-.main {
+html,
+body {
+  margin: 0px 0px 0px 0px;
+  min-height: 100vh;
+  padding: 0px 0px 0px 0px;
   background-color: #111;
-  height: 100vh;
   color: #fff;
 }
-.face {
-  background-color: #111;
-  height: 100vh;
-  color: #fff;
-}
-.image {
-  background-color: #111;
-  height: 100vh;
-  color: #fff;
+body::after {
+  content: "";
+  display: table; /* NOTE: Display "block" does not seem to work with height: 0px. */
+  height: 0px;
 }
 .header-btn {
   display: flex;
