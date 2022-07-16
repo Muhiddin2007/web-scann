@@ -9,6 +9,18 @@ body {
   height: 100vh;
   color: #fff;
 }
+.main {
+  display: flex;
+  flex-flow: column;
+}
+.face {
+  display: flex;
+  flex-flow: column;
+}
+.image {
+  display: flex;
+  flex-flow: column;
+}
 .header-btn {
   display: flex;
   justify-content: flex-end;
